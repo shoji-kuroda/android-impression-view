@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.github.shoji_kuroda.impression_view.ObservableScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.github.shoji_kuroda.impressionview.MainActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="1000dp"
+                android:background="@android:color/holo_green_light" />
+
+            <include layout="@layout/view_target" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="1000dp"
+                android:background="@android:color/holo_green_light" />
+
+        </LinearLayout>
+    </com.github.shoji_kuroda.impression_view.ObservableScrollView>
+</FrameLayout>

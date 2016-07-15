@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/kuroda02/Dev/android/ImpressionView/sample/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0-beta1/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.1"
+        sha1="f81eecb8d5e9e548f75f277830a94a9b37fbb987">
+        <dex dex="/Users/kuroda02/Dev/android/ImpressionView/sample/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.0.0-beta1_003160c2b9ea3f055011ebfa6ec2f07d78161cb9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kuroda02/Dev/android/ImpressionView/sample/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.1"
+        sha1="3644b318afee2d321c339c48ebdbb57a47e224d1">
+        <dex dex="/Users/kuroda02/Dev/android/ImpressionView/sample/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_2aa68029316d2ab431d6a352608b6be0131d9793/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kuroda02/Dev/android/ImpressionView/sample/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.0.0-beta1/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.1"
+        sha1="8d3137a71200c47974c0454ae8ad272a09c533eb">
+        <dex dex="/Users/kuroda02/Dev/android/ImpressionView/sample/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.0.0-beta1_c993c2cf18be55bf9166028982ce67e251377845/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kuroda02/Dev/android/ImpressionView/sample/build/intermediates/exploded-aar/com.android.support.constraint/constraint-layout/1.0.0-alpha3/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.1"
+        sha1="a2bcc25d161a84d8eabde61806dad90029b3ff15">
+        <dex dex="/Users/kuroda02/Dev/android/ImpressionView/sample/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support.constraint-constraint-layout-1.0.0-alpha3_3ab4d485c0275cacf91720cccd2212b68142911f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kuroda02/Dev/android/Android Studio 2.2 Preview3.app/Contents/gradle/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.0-alpha3/constraint-layout-solver-1.0.0-alpha3.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.1"
+        sha1="29e762ef46d0cb2b648eb3d25eeb2b29853579fe">
+        <dex dex="/Users/kuroda02/Dev/android/ImpressionView/sample/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.0-alpha3_14580976bb70596758445a7b4d6db14f8823e023/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kuroda02/Dev/android/ImpressionView/sample/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0-beta1/jars/libs/internal_impl-24.0.0-beta1.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.1"
+        sha1="23d564c059873f398dc5d967f56791a66472ce76">
+        <dex dex="/Users/kuroda02/Dev/android/ImpressionView/sample/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.0.0-beta1_82104d26a07181fec49d500e3bf2d7dc87c013a2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kuroda02/Dev/android/ImpressionView/sample/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.1"
+        sha1="c0cacf18d5c3f96b958545509abed1d143d02aa0">
+        <dex dex="/Users/kuroda02/Dev/android/ImpressionView/sample/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_0ad295bd5828f94cea4ba1cea5bfa0884ded8a9a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kuroda02/Dev/android-sdk-macosx/extras/android/m2repository/com/android/support/support-annotations/24.0.0-beta1/support-annotations-24.0.0-beta1.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.1"
+        sha1="04705c19cdec60364bc04e2e928c274da1ba301b">
+        <dex dex="/Users/kuroda02/Dev/android/ImpressionView/sample/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.0.0-beta1_f4f27e4d4b7500d69cf56d942bd131028a368044/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kuroda02/Dev/android/ImpressionView/sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0-beta1/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.1"
+        sha1="97f82fd0c185bd2881a93646954f2429be4baa86">
+        <dex dex="/Users/kuroda02/Dev/android/ImpressionView/sample/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.0.0-beta1_e9b73314df1151b63b115c7c18ce523aa8bccb43/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kuroda02/Dev/android/ImpressionView/sample/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.0.0-beta1/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.1"
+        sha1="471ce760dbf7b784fd74892b5113bca4e0d8def7">
+        <dex dex="/Users/kuroda02/Dev/android/ImpressionView/sample/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-24.0.0-beta1_5528f3e7f200d438fc79a6430cc01a3e219c67e8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kuroda02/Dev/android/ImpressionView/sample/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.0.0-beta1/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.1"
+        sha1="3c0208faf42864e6695345e64d1b955070263819">
+        <dex dex="/Users/kuroda02/Dev/android/ImpressionView/sample/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.0.0-beta1_1e12708e88e7f878a57a929cff03e70cd27bcf4c/classes.dex" />
+    </item>
+
+</items>
