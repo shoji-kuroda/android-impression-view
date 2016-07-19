@@ -3,6 +3,9 @@ package com.github.shoji_kuroda.impression_view;
 
 import android.support.v7.widget.RecyclerView;
 
+/**
+ * Created by kuroda02 on 2016/07/15.
+ */
 abstract class RecyclerViewScrollDetector extends RecyclerView.OnScrollListener {
 
     private static final int SCROLL_THRESHOLD = 4;

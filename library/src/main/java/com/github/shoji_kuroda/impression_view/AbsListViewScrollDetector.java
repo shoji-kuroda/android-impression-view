@@ -4,12 +4,15 @@ import android.support.annotation.NonNull;
 import android.view.View;
 import android.widget.AbsListView;
 
+/**
+ * Created by kuroda02 on 2016/07/15.
+ */
 abstract class AbsListViewScrollDetector implements AbsListView.OnScrollListener {
 
     private static final int SCROLL_THRESHOLD = 4;
-    private int mLastScrollY;
-    private int mPreviousFirstVisibleItem;
-    private AbsListView mListView;
+    private int lastScrollY;
+    private int previousFirstVisibleItem;
+    private AbsListView listView;
 
     abstract void onScrollUp();
 
@@ -26,38 +29,38 @@ abstract class AbsListViewScrollDetector implements AbsListView.OnScrollListener
         }
         if (isSameRow(firstVisibleItem)) {
             int newScrollY = getTopItemScrollY();
-            boolean isSignificantDelta = Math.abs(mLastScrollY - newScrollY) > SCROLL_THRESHOLD;
+            boolean isSignificantDelta = Math.abs(lastScrollY - newScrollY) > SCROLL_THRESHOLD;
             if (isSignificantDelta) {
-                if (mLastScrollY > newScrollY) {
+                if (lastScrollY > newScrollY) {
                     onScrollUp();
                 } else {
                     onScrollDown();
                 }
             }
-            mLastScrollY = newScrollY;
+            lastScrollY = newScrollY;
         } else {
-            if (firstVisibleItem > mPreviousFirstVisibleItem) {
+            if (firstVisibleItem > previousFirstVisibleItem) {
                 onScrollUp();
             } else {
                 onScrollDown();
             }
 
-            mLastScrollY = getTopItemScrollY();
-            mPreviousFirstVisibleItem = firstVisibleItem;
+            lastScrollY = getTopItemScrollY();
+            previousFirstVisibleItem = firstVisibleItem;
         }
     }
 
     public void setListView(@NonNull AbsListView listView) {
-        mListView = listView;
+        this.listView = listView;
     }
 
     private boolean isSameRow(int firstVisibleItem) {
-        return firstVisibleItem == mPreviousFirstVisibleItem;
+        return firstVisibleItem == previousFirstVisibleItem;
     }
 
     private int getTopItemScrollY() {
-        if (mListView == null || mListView.getChildAt(0) == null) return 0;
-        View topChild = mListView.getChildAt(0);
+        if (listView == null || listView.getChildAt(0) == null) return 0;
+        View topChild = listView.getChildAt(0);
         return topChild.getTop();
     }
 }

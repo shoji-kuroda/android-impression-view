@@ -14,7 +14,6 @@ import android.widget.ScrollView;
 /**
  * Created by kuroda02 on 2016/07/15.
  */
-
 abstract public class ImpressionView extends FrameLayout implements ImpressionDetector {
 
     private boolean isVisible;
